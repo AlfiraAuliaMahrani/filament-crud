@@ -11,6 +11,7 @@ class Blog extends Model
 {
     use HasFactory, HasUlids;
 
+    protected $table = 'blog';
     protected $fillable =
     [
         'name',
